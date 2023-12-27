@@ -60,3 +60,24 @@
                 #Ternary Operators
                 Shortcut for if..else
                 Int result = a>b?10:20;
+
+
+                #when to use which loop?
+                if we know the end like we need to print the same statement for 500 times the we use forloop  and if we dont know the end like if we have to print the each character of a book then we use whileLoop and doWhileloop is used whenever if we have execute a statement even if the condition is false then we use DOWHILE loop.
+
+
+                #class and object
+                A class is a blueprint that explains the behavior and state of an object.
+                An object is used to access all the properties, methods of the class.
+
+
+                 #method overloaing             
+                Having the same method name but different arguments.
+                Overloading even accepts different datatype of arguments.'
+
+
+                #Stack and Heap memory
+                Stack memory stores the value of local variables.
+                Heap memory store the value of instance and object.
+
+                
