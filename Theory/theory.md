@@ -207,6 +207,130 @@
                FINAL METHOD : Means can't be overridden or to stop method overriding.
 
 
+               #Abstract keyword
+               1.Abstract Class can have both  the normal methods and abstract methods but abstract methods can only be defined inside abstract class.
+               2.Abstract methods are used to just declare .  i.e abstract class void show();  //declaring
+               2.Those class that inherits the abstract class should define the abstract methods.
+                public void show(){      //defining
+                }
+
+
+                #Inner class
+                Class inside class is a inner class.we can make the object of the inner class by making the object of outer class.
+                class A{
+                  public void show(){}
+
+                  class B{                 //inner class
+                    public void ok(){}
+                  }
+                }
+
+                psvm{
+                  A obj = new A();    //creating object of outerclass
+                  A.B obj1 = obj.new B(); //creating object of        innerclass by the help of outer class object    
+                }
+
+
+                #Interface
+                when we have to use all the methods that are abstract only then we can use interface. so by default all the methods inside interface are public and abstract and all the varaibles inside interface are final and static.
+                interface A{
+                  //all abstract methods.
+                }  
+
+                #Types of interface
+
+                a.Normal Interface
+                it can have more than one methods.
+
+                b.Functional Interface
+                Its a interface that has only one method.
+                @FuntionalInterface
+
+                c.Marker Interface
+                Dont have any methods i.e blank
+
+
+
+
+                #Enum
+                Enums are class in java which is a group of constants.
+                enum student{
+                   Running,
+                   Studying,
+                   Helping;
+                } 
+
+
+                #Anonymous Class
+                Those expression that can directly be used in body
+                psvm{
+                   Student student = new Student() {            
+                       public void study() {      
+                        // ANONYMOUS CLASS: defined directly in the body 
+                          System.out.println("study");
+                      }
+                   };
+                   student.study();
+                }
+
+
+                #Lambda Expression (->)
+                1.Those expression  which takes parameters and returns some value.
+                2.Can only be used with the functional interface.
+
+                #Exception
+                Exception are run-time error that disrupts the normal flow the normal flow of the program.
+                1.Compiled-Time Exception: That occurs in the compile time.Ex-Sql exception , IO Exception
+                2.Run-time Exception : that occurs in the run-time.
+                Ex- Arithmetic Exception , Null Pointer Exception
+
+                #Exception Handling
+                1.try..catch 
+                 try{
+                  //block of code that could throw  exception
+                 }catch (Exception e){}    //catching the exception 
+
+                 2.finally
+                 finally keyword is used to execute the statement whether the exception is handled or not.It can be try..catch...finally or try...finally
+
+
+                 3.throw
+                 The "throw" keyword is used to throw an exception.it can be used to throw our own created custom exception
+                 throw new ArithmeticException("exception occured);
+                 throw new MyOwnException("This is custom Exception");
+
+                 4.throws 
+                 The "throws" keyword is used to duck the exception.it is used in the signature method.
+
+
+                 #Exception Heirarchy
+                 object-->Throwable--->Error    
+                                   --->Exception--->Runtime Exception
+                                              --->CompileTimeException
+                 1.Arithmetic, ArrayIndexOutOfBound,NullPointer are all runtime exception and are called unchecked exceprion.Compiler don't care.
+                 2.SQL exception,IO Exception are all Compiletime exception and are called checked exception.Compiler asks forcly to handle such exception.
+
+
+                 #Threads
+                 Threads are the lightweight processes available.A multithreaded program contains two or more part that can run concurrently.Each part of such programs are called threads.
+                 for ex- While playing PUBG .one player is firing,another player is driving, another is throwing a granade.so these are all threads working concurrently which is also called multithreading.
+                                              
+                                                
+
+                 
+
+              
+
+
+
+
+
+
+                 
+
+                                        
+
+
 
 
 

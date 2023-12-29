@@ -20,11 +20,11 @@ class Teacher extends Student{
     }
 }
 
+ 
 
 
 
-
-public class MethodOveriding {
+public class MethodOveriding {   
 
     public static void main(String[] args) {
         
