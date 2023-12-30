@@ -123,7 +123,7 @@
                 StringBuffer str = new StringBuffer("iphone");
                 str.append(" myphone");     //outpu= iphone myphone
                 str.capacity();            //output = 22   because it adds extra 16 space in memory. 
-                The main diff between StringBuffer and StringBuilder is that StringBuffer is THREADSAFE.
+                The main diff between StringBuffer and StringBuilder is that StringBuffer is THREADSAFE(only one thread at a time).
 
 
                 #static variable
@@ -314,6 +314,26 @@
                  #Threads
                  Threads are the lightweight processes available.A multithreaded program contains two or more part that can run concurrently.Each part of such programs are called threads.
                  for ex- While playing PUBG .one player is firing,another player is driving, another is throwing a granade.so these are all threads working concurrently which is also called multithreading.
+
+
+                 #Stream Api
+                 from java 8 , Stream are basically used to fetch data from collections. Can only be used once.Stream has different functions filter(Predicate),map(Function),reduce etc.It can be used for sorting i.e sort();
+
+                 #Var
+                 After java 10, Var is introduced which can only be used in local varaibles. Var needs to be initialized.
+                 class student{
+          
+                  var int age =10;        //wont work here because it  is instance varaible
+                                           
+                 psvm{
+                    
+                       int a=6;
+                       var b= 5;         //by default it knows that it is integer type.
+                                          
+     
+                 }
+
+                 }
                                               
                                                 
 
