@@ -312,7 +312,7 @@
           
                   var int age =10;        //wont work here because it  is instance varaible
                                            
-                 psvm{
+                ` psvm{
                     
                        int a=6;
                        var b= 5;         //by default it knows that it is integer type.
