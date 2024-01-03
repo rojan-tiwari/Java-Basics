@@ -1,0 +1,2 @@
+Threads are the lightweight processes available.A multithreaded program contains two or more part that can run concurrently.Each part of such programs are called threads.
+                 for ex- While playing PUBG .one player is firing,another player is driving, another is throwing a granade.so these are all threads working concurrently which is also called multithreading.

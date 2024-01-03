@@ -1,0 +1,2 @@
+**Stream Api**
+                 from java 8 , Stream are basically used to fetch data from collections. Can only be used once.Stream has different functions filter(Predicate),map(Function),reduce etc.It can be used for sorting i.e sort();

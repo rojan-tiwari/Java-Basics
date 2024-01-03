@@ -1,0 +1,2 @@
+**when to use which loop?**
+                if we know the end like we need to print the same statement for 500 times the we use forloop  and if we dont know the end like if we have to print the each character of a book then we use whileLoop and doWhileloop is used whenever if we have execute a statement even if the condition is false then we use DOWHILE loop.
