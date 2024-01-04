@@ -172,7 +172,7 @@
       //block of code
     }   
     
-   **TreeSet**
+   **-TreeSet**
    1.TreeSet implements Navigable Set.
    2.class TreeSet implements NavigableSet{
       //block of code
@@ -186,6 +186,80 @@
 
 
    **7.Queue**
+   It is an ordered list of objects with its use limited to inserting elements at the end of the list and deleting elements from the start of the list, (i.e.), it follows the FIFO or the First-In-First-Out principle. <br>
+
+   **a.PriorityQueue**
+   A PriorityQueue is used when the objects are supposed to be processed based on the priority. It is known that a Queue follows the First-In-First-Out algorithm, but sometimes the elements of the queue are needed to be processed according to the priority, that’s when the PriorityQueue comes into play.PriorityQueue doesn’t permit null
+
+  **8.Map**    <br>
+  Map basically works in keyvalue pair.   <br>
+  The key can't de duplicate because it will override , but corresponding values can be duplicate.  <br>
+  map.put(102,"rojan);     <br> 
+  map.put(102,"tiwari);      //if i enter duplicate values here, rojan will ben overriden by tiwari.    <br>
+  The key can have obnly one null value but corresponding values can have multiple null values.        <br>
+  Map doesnt follow sorting and insertion order.   <br>
+  Map can return value in set.    <br>
+  Map mp = new HashMap();        <br>
+  mp.put(1,"rojan");           <br>
+  mp.put(2,"tiwari");          <br>
+  Set se = mp.entrySet();   //returning in set     <br>
+  we can get key and value seperately using Map.Entry      <br>
+
+
+  **a.HashMap**       <br>
+  HashMap is a implemented class of map interface.   <br>
+  HashMap implements Map{      <br>
+     //block of code        <br>
+  }    <br>
+  HashMap underlying data structure is "HashTable".   <br>
+  HashMap can store heterogeneous values.   <br>
+  HashMap are non-synchronized. 
+  HashMap capacity means the number of buckets in the HashTable.    <br>
+  //Other are similar to map       <br>
+
+  **-LinkedHashMap**
+  The LinkedHashMap Class is just like HashMap with an additional feature of maintaining an order of elements inserted into it. HashMap provided the advantage of quick insertion, search, and deletion but it never maintained the track and order of insertion, which the LinkedHashMap provides where the elements can be accessed in their insertion order.
+
+  public class LinkedHashMap<K,​V> extends HashMap<K,​V> implements Map<K,​V>
+
+
+  **b.SortedMap**   <br>
+  The main difference between a SortedMap and a regular Map is that the elements in a SortedMap are stored in a sorted order.    <br>
+
+  **-TreeMap**      <br>
+   TreeMap is a implemented class of NavigableMap.   <br>
+   Class TreeMap implements NavigableMap{     <br>
+    //block of code    <br>
+   }    <br>
+   TreeMap underlying data structure is "Red-Black Tree".   <br>
+   TreeMap can store both homogeneous(default sorting algorithm) and heterogeneous (we have to provide sorting algorithm).   <br>
+   TreeMap stores in key-value pair.    <br>
+   TreeMap doesnt follow insertion order but it follws sorting order using key value.    <br>
+   It can't store null value.    <br>
+
+
+
+   **HashTable**    <br>
+   HashTable is implementation class of Map interface.    <br>
+   class HashTable implements Map{     <br>
+    //block of code     <br>
+    }       <br>
+    HashTable are synchronized.      <br>
+     //working of hastable in diagram.
+  
+
+
+
+
+
+
+
+
+
+
+
+  
+
    
 
     

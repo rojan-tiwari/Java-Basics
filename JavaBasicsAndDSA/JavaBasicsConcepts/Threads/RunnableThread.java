@@ -1,4 +1,4 @@
-package JavaBasicsAndDSA.JavaBasicsConcepts.Threads;
+package Threads;
 
 class Student implements Runnable {                 
     public void run() {                          

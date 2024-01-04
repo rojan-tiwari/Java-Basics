@@ -1,4 +1,4 @@
-package JavaBasicsAndDSA.CollectionFramework.Set;
+package JavaBasicsAndDSA.CollectionFramework.Collection.Set;
 
 import java.util.NavigableSet;
 import java.util.TreeSet;

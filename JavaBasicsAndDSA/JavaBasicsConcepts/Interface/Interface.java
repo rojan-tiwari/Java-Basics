@@ -1,4 +1,4 @@
-package JavaBasicsAndDSA.JavaBasicsConcepts.Interface;
+package Interface;
 
 interface A {      
  
@@ -13,6 +13,7 @@ interface A {
 
 interface C {
     void showWhat();
+    
 }
 
 class B implements A, C {                  //this is multiple inheritance achieved by interfaces         

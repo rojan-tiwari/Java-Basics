@@ -1,5 +1,5 @@
 package JavaBasicsAndDSA.JavaBasicsConcepts.AbstractKeyword;
-import JavaBasicsAndDSA.JavaBasicsConcepts.MethodOverloadingAndOveriding.Student;
+
 
 abstract class Student{                 //abstract class can have both normal and abstract methods
 

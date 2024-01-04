@@ -101,7 +101,7 @@
                 16.Drawbacks of array
                 1.it is fixed size once defined .
                 2.Doesnt accept heterogeneous data types. It has to be of same data types.
-
+  
                 17.String
                 Sequence of the characters.
                 String name = "Ronaldo"
@@ -109,7 +109,7 @@
                 18.Mutable vs Immutable String
                 String constant Pool is basically a storage that contains all the strings defined.
                 String s1 = "airpod" //it is stored in heap memory like ((address)104-->"airpod") and s1-->104 (address) is stored in stack memory.
-                s1 = s1 + "earphone"  /what happens here is? it created a new object in heap memory with the s1 address i.e 104 and previous "airpod" is excluded and is ready for garbabge collection.
+                s1 = s1 + "earphone"  /what happens here is? it creates a new object in heap memory with the s1 address i.e 104 and previous "airpod" is excluded and is ready for garbabge collection.
                 By default Strings are immutable that cannot be changed once defined.
                 But we "StringBuffer" and "StringBuilder" which are mutable i.e can be changed.
 

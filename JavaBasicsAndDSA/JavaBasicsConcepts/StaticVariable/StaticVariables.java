@@ -48,7 +48,7 @@ public class StaticVariables {
         stud1.studentDetails();
         stud2.studentDetails();
 
-        // Students.studentDetails();   // i cant call this method using class name because it is not static 
+        // Students.studeenntDetails();   // i cant call this method using class name because it is not static 
 
         Students.studentDetails1(stud1);    // but i cant call this method using class name because it is  static  method.
                                        

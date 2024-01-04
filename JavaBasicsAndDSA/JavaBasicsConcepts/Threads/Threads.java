@@ -1,4 +1,4 @@
-package JavaBasicsAndDSA.JavaBasicsConcepts.Threads;
+package Threads;
 
 class Student extends Thread {                   //Should extend thread class
     public void run() {                          //should have run() method

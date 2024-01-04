@@ -1,7 +1,6 @@
 
 package JavaBasicsAndDSA.JavaBasicsConcepts.ThisAndSuperKeyword;
-import JavaBasicsAndDSA.JavaBasicsConcepts.AbstractKeyword.Student;
-import JavaBasicsAndDSA.JavaBasicsConcepts.AbstractKeyword.Teacher;
+
 
 class Student{            //every class in java extends OBJECT class.
   
