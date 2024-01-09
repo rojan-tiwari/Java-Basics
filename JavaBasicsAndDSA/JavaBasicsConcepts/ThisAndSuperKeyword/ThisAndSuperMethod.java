@@ -1,5 +1,5 @@
 
-package JavaBasicsAndDSA.JavaBasicsConcepts.ThisAndSuperKeyword;
+package ThisAndSuperKeyword;
 
 
 class Student{            //every class in java extends OBJECT class.

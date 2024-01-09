@@ -1,4 +1,4 @@
-package JavaBasicsAndDSA.JavaBasicsConcepts.Constructors;
+package Constructors;
 
 class Student {
 

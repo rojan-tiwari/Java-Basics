@@ -1,4 +1,4 @@
-package JavaBasicsAndDSA.JavaBasicsConcepts.StaticVariable;
+package StaticVariable;
 
 
 
@@ -50,7 +50,7 @@ public class StaticVariables {
 
         // Students.studeenntDetails();   // i cant call this method using class name because it is not static 
 
-        Students.studentDetails1(stud1);    // but i cant call this method using class name because it is  static  method.
+        Students.studentDetails1(stud1);    // but i can call this method using class name because it is  static  method.
                                        
 
 

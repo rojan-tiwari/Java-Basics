@@ -9,7 +9,7 @@
     //block of code
   }
   ```
-
+ 
  ```java
  Test t= new Test();     //non-primitive
  -Collection framework only stores the non-primitive(object) datatypes.

@@ -1,4 +1,4 @@
-package JavaBasicsAndDSA.JavaBasicsConcepts.ClassAndObject;
+package ClassAndObject;
 
 class Calculator {
 

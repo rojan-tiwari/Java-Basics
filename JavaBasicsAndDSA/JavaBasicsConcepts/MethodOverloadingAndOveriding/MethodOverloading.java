@@ -1,7 +1,7 @@
-package JavaBasicsAndDSA.JavaBasicsConcepts.MethodOverloadingAndOveriding;
+package MethodOverloadingAndOveriding;
 
 
-//method overloading conceept
+//method overloading concept
 
  class Calculator {
 

@@ -1,6 +1,8 @@
-import JavaBasicsAndDSA.JavaBasicsConcepts.Encapsulation.Student;
 
-package JavaBasicsAndDSA.JavaBasicsConcepts.Array;
+package Array;
+
+
+
 public class ArrayOfObjects {
 
     public static void main(String[] args) {

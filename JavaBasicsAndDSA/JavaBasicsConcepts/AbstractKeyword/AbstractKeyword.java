@@ -1,4 +1,4 @@
-package JavaBasicsAndDSA.JavaBasicsConcepts.AbstractKeyword;
+package AbstractKeyword;
 
 
 abstract class Student{                 //abstract class can have both normal and abstract methods

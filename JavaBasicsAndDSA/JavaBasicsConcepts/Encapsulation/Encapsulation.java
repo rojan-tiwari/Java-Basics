@@ -1,4 +1,4 @@
-package JavaBasicsAndDSA.JavaBasicsConcepts.Encapsulation;
+package Encapsulation;
 
  class Student {
 

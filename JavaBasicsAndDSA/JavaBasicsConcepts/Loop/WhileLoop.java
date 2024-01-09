@@ -1,4 +1,4 @@
-package JavaBasicsAndDSA.JavaBasicsConcepts.Loop;
+package Loop;
 
 public class WhileLoop {
 

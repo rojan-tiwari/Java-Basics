@@ -1,4 +1,4 @@
-package JavaBasicsAndDSA.JavaBasicsConcepts.MethodOverloadingAndOveriding;
+package MethodOverloadingAndOveriding;
 
 class Student{
     

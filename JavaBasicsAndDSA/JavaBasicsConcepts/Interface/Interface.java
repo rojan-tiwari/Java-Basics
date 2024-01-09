@@ -13,6 +13,7 @@ interface A {
 
 interface C {
     void showWhat();
+     void ok();
     
 }
 
@@ -36,6 +37,7 @@ public class Interface {
     public static void main(String[] args) {
         A obj = new B();                            //can create the instance of interfae (A obj) but cant create the object.
         obj.show();
+        obj.ok();
 
     }
 

@@ -1,5 +1,4 @@
-package JavaBasicsAndDSA.JavaBasicsConcepts.LambdaExpression;
-import JavaBasicsAndDSA.JavaBasicsConcepts.Threads.Student;
+package LambdaExpression;
 
 @FunctionalInterface // can have only one method
 interface Student {

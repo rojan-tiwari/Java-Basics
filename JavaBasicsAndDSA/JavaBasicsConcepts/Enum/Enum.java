@@ -1,4 +1,4 @@
-package JavaBasicsAndDSA.JavaBasicsConcepts.Enum;
+package Enum;
 
 enum Student { // enum is a class
     Rojan(90), // these are objects
